@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Meme Generator</title>
+
+    <link rel="stylesheet"
+    href="https://unpkg.com/bootstrap/dist/css/bootstrap.css">
+<script src="https://unpkg.com/jquery"></script>
+<script src="https://unpkg.com/popper"></script>
+<script src="https://unpkg.com/bootstrap"></script>
+</head>
+<body>
+    <p class="title">Memz</p>
+<div class="col justify-content-center formdiv" align="center">
+    <div class="col">
+        <form action="" type="submit" id="imageform">
+            <div class="input-div">
+                <div class="label">
+                    <label for="image-text">What image would you like to use?</label>
+                </div>
+                
+                <input type="text submit" id="image-URL" name="inputURL" placeholder="Enter the URL for the image you would like to use">
+
+            </div>
+            <div class="input-div">
+
+                <div class="label">
+                    <label for="top-text">Top Text</label> 
+                </div>
+                <input type="text submit" id="top-text" placeholder="Optional: enter top text">
+            </div>
+
+            <div class="input-div">
+                <div class="label">
+                    <label for="bottom-text">Bottom Text</label>
+                </div>
+
+                <input type="text submit" id="bottom-text" placeholder="Optional: enter bottom text">
+            </div>
+
+        <button class="btn btn-primary btn-lg mt-3">Generate Meme!</button>
+        </form>
+    </div>
+</div>
+    <br>
+    
+
+
+<div id="meme-div" class="meme-div">
+    <!-- <img id="doggo" src="https://i.ytimg.com/vi/OOFGdRmN70k/maxresdefault.jpg"> -->
+</div>
+
+</body>
+<script src="app.js"></script>
+
+</html>
